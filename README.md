@@ -3,7 +3,7 @@
 ## Exercicios:
 1. Um petshop deseja manter cadastrados seus clientes bem como seus pets. Um cliente deve informar seu nome, CPF, e-mail e telefone, além do nome, espécie e data de nascimento de seu pet.
 
-![MerPetShop](Mer/PetShop.png)
+![PetShopPNG](SLIDE 10/Petshop - Aula 2023-08-21.png)
 
 Script sql:
 [SQL PetShop](Scripts/ScriptSQLPetShop.txt)
