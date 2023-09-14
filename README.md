@@ -43,4 +43,21 @@ Script SQL:
 Script SQL:
 [SQL Videoteca](SLIDE%2019/SQL%20Videoteca%20-%20Aula%202023-08-21.txt)
 
+## Exercicios 2023-09-04:
+
+1. Crie um banco de dados para armazenar dados de alunos. Um aluno deve ter RA, nome, data de nascimento, endereço e e-mail.
+
+![Aluno MER](Aula%204/Aluno%20BD%202023-09-04.png)
+
+Script SQL:
+[SQL Aluno](Aula%204/SQL%20Aluno%20BD%202023-09-04.txt)
+
+2. Crie um banco de dados para armazenar dados de colaboradores de uma empresa. Um colaborador deve ter um código de identificação, nome, CPF, cargo e salário.
+
+ ![Colaborador MER](Aula%204/Colaboraddor%20BD%202023-09-04.png)
+
+Script SQL:
+[SQLColaborador](Aula%204/SQL%20Colaboraddor%20BD%202023-09-04.txt)
+   
+
 
