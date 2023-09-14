@@ -1,4 +1,4 @@
-# Exercícios de Banco de Dados AC1
+# Exercícios de Banco de Dados - AC1
 
 ## Exercicios 2023-08-21:
 1. Um petshop deseja manter cadastrados seus clientes bem como seus pets. Um cliente deve informar seu nome, CPF, e-mail e telefone, além do nome, espécie e data de nascimento de seu pet.
