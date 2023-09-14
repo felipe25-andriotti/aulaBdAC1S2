@@ -43,7 +43,7 @@ Script SQL:
 Script SQL:
 [SQL Videoteca](SLIDE%2019/SQL%20Videoteca%20-%20Aula%202023-08-21.txt)
 
-## Exercicios 2023-09-04:
+## Exercícios 2023-09-04:
 
 1. Crie um banco de dados para armazenar dados de alunos. Um aluno deve ter RA, nome, data de nascimento, endereço e e-mail.
 
