@@ -1,0 +1,33 @@
+CREATE TABLE Filme (
+  titulo VARCHAR(30),
+  duracao INT(3),
+  idiomaOriginal VARCHAR(20),
+  preco DECIMAL(3,2)
+);
+
+INSERT INTO Filme (titulo, duracao, idiomaOriginal, preco) VALUES ('O Último Herói', 120, 'Português', 39.90);
+INSERT INTO Filme (titulo, duracao, idiomaOriginal, preco) VALUES ('A Invenção do Tempo', 150, 'Inglês', 49.90);
+INSERT INTO Filme (titulo, duracao, idiomaOriginal, preco) VALUES ('A Cidade dos Sonhos', 100, 'Espanhol', 29.90);
+INSERT INTO Filme (titulo, duracao, idiomaOriginal, preco) VALUES ('A Terra Perdida', 145, 'Japonês', 44.90);
+INSERT INTO Filme (titulo, duracao, idiomaOriginal, preco) VALUES ('O Planeta das Fadas', 115, 'Francês', 34.90);
+
+
+SELECT titulo, duracao, idiomaOriginal, preco
+FROM Filme;
+
+
+CREATE TABLE Ator (
+  nome VARCHAR(20),
+  dataNascimento DATE,
+  nacionalidade VARCHAR(20)
+);
+
+INSERT INTO Ator (nome, dataNascimento, nacionalidade) VALUES ('Brad Pitt', '1963-12-18', 'Estados Unidos');
+INSERT INTO Ator (nome, dataNascimento, nacionalidade) VALUES ('Meryl Streep', '1949-06-22', 'Estados Unidos');
+INSERT INTO Ator (nome, dataNascimento, nacionalidade) VALUES ('Shah Rukh Khan', '1965-11-02', 'Índia');
+INSERT INTO Ator (nome, dataNascimento, nacionalidade) VALUES ('Cate Blanchett', '1969-05-14', 'Austrália');
+INSERT INTO Ator (nome, dataNascimento, nacionalidade) VALUES ('Gael García Bernal', '1978-11-30', 'México');
+
+
+SELECT nome, dataNascimento, nacionalidade
+FROM Ator;

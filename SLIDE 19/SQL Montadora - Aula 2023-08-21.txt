@@ -1,0 +1,32 @@
+
+CREATE TABLE Montadora(
+  nome VARCHAR(20),
+  site VARCHAR(20),
+  logotipo VARCHAR(20)
+  
+  );
+  
+INSERT INTO Montadora(nome, site, logotipo) VALUES ('Lucas Mendes', 'http://www.lucasmendes.com', 'http://www.exemplo.com/logotipo1.jpg');
+
+
+SELECT nome, site, logotipo FROM Montadora;
+
+
+CREATE TABLE Automovel(
+  placa VARCHAR(7),
+  modelo VARCHAR(100),
+  ano DATE
+  
+  
+  );
+  
+INSERT INTO Automovel(placa, modelo, ano) VALUES ('ABC-1234', 'Sedan Luxo', 2022);
+INSERT INTO Automovel(placa, modelo, ano) VALUES ('XYZ-5678', 'SUV Esportivo', 2023);
+INSERT INTO Automovel(placa, modelo, ano) VALUES ('DEF-9876', 'Hatchback Compacto', 2021);
+INSERT INTO Automovel(placa, modelo, ano) VALUES ('GHI-6543', 'Caminhão de Carga', 2020);
+INSERT INTO Automovel(placa, modelo, ano) VALUES ('JKL-3210', 'Minivan Familiar', 2019);
+
+
+
+SELECT placa, modelo, ano FROM Automovel;
+

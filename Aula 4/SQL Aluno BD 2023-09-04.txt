@@ -1,0 +1,15 @@
+CREATE TABLE Aluno_Info (
+  ra VARCHAR(6),
+  name VARCHAR(200),
+  data_nascimento DATE,
+  endereco VARCHAR(200),
+  email VARCHAR(200)
+);
+
+INSERT INTO Aluno_Info (ra, name, data_nascimento, endereco, email) VALUES ('236878', 'Felipe', '1990-08-10', 'Rua Mario das Neves Nº9 - Arco Novo', 'lipe@gmail.com');
+INSERT INTO Aluno_Info (ra, name, data_nascimento, endereco, email) VALUES ('787889', 'João Silva', '2002-08-09', 'Rua Das Dalias Nº10 - Jardim das Borboletas', 'jão23@gmail.com');
+INSERT INTO Aluno_Info (ra, name, data_nascimento, endereco, email) VALUES ('457812', 'Bea Tavernaro', '1990-04-15', 'Rua das Flores Perfumadas - Nº200 - Praia dos Corais', 'beatavernaro@gmail.com');
+INSERT INTO Aluno_Info (ra, name, data_nascimento, endereco, email) VALUES ('708965', 'Diego Gama', '1985-07-07', 'Avenida do Sol Dourado Nº150 - Colina dos Pinheiros', 'diegão@gmail.com');
+INSERT INTO Aluno_Info (ra, name, data_nascimento, endereco, email) VALUES ('467913', 'Julia Santos', '2001-10-23', 'Travessa da Serenidade Nº89 - Alameda das Estrelas', 'juliasantos@gmail.com');
+
+SELECT ra, name, data_nascimento, endereco, email FROM Aluno_Info;

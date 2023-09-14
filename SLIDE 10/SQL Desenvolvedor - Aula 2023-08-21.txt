@@ -1,0 +1,35 @@
+CREATE TABLE Desenvolvedor(
+  nome VARCHAR(200),
+  cpf VARCHAR(11),
+  datanascimento DATE
+  
+  );
+  
+INSERT INTO Desenvolvedor(nome, cpf, datanascimento) VALUES ('Felipe','45678945678','2007-08-09');
+INSERT INTO Desenvolvedor(nome, cpf, datanascimento) VALUES ('Maria','12345678901','1990-04-15');
+INSERT INTO Desenvolvedor(nome, cpf, datanascimento) VALUES ('João','98765432109','1985-12-30');
+INSERT INTO Desenvolvedor(nome, cpf, datanascimento) VALUES ('Ana','87654321012','1999-06-20');
+INSERT INTO Desenvolvedor(nome, cpf, datanascimento) VALUES ('Carlos','65432109876','1978-03-05');
+
+
+
+SELECT nome, cpf, datanascimento FROM Desenvolvedor;
+
+
+CREATE TABLE Projeto(
+  nome VARCHAR(200),
+  genero VARCHAR(20),
+  datalançamento DATE,
+  faixaEtaria int(2)
+  
+  
+  );
+  
+INSERT INTO Projeto(nome, genero, datalançamento, faixaEtaria) VALUES ('MyMusic','Music','2018-05-08',12);
+INSERT INTO Projeto(nome, genero, datalançamento, faixaEtaria) VALUES ('GameWorld', 'Jogos', '2020-11-20', 16);
+INSERT INTO Projeto(nome, genero, datalançamento, faixaEtaria) VALUES ('MovieMania', 'Filmes', '2019-07-03', 14);
+INSERT INTO Projeto(nome, genero, datalançamento, faixaEtaria) VALUES ('TechTalk', 'Tecnologia', '2021-02-15', 18);
+INSERT INTO Projeto(nome, genero, datalançamento, faixaEtaria) VALUES ('KidsFun', 'Infantil', '2017-09-10', 6);
+
+
+SELECT nome, genero, datalançamento, faixaEtaria FROM Projeto;

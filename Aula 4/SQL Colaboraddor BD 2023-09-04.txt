@@ -1,0 +1,18 @@
+CREATE TABLE Colaborador_Info 
+(
+  codId VARCHAR(10),
+  nome VARCHAR(200),
+  cpf VARCHAR(11),
+  cargo VARCHAR(20),
+  salario DOUBLE(6,2)
+  
+  
+  );
+  
+  INSERT INTO Colaborador_Info (codId, nome, cpf,cargo, salario) VALUES('1','Isabella Montenegro','123.456.789-09','Analista de Marketing Digital','6.000');
+  INSERT INTO Colaborador_Info (codId, nome, cpf,cargo, salario) VALUES('2','Lucas Pereira','987.654.321-21','Gerente de Recursos Humanos','7.000');
+  INSERT INTO Colaborador_Info (codId, nome, cpf,cargo, salario) VALUES('3','Sofia Rodrigues','456.789.123-54','Desenvolvedor de Software Sênior','11.000');
+  INSERT INTO Colaborador_Info (codId, nome, cpf,cargo, salario) VALUES('4','Mateus Silva','789.123.456-76','Especialista em Atendimento ao Cliente',' 3.500');
+  INSERT INTO Colaborador_Info (codId, nome, cpf,cargo, salario) VALUES('5','Helena Costa','234.567.890-98','Técnico de Suporte de TI:','3.000');
+  
+  SELECT codId, nome, cpf,cargo, salario FROM Colaborador_Info;

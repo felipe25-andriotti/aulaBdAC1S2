@@ -1,0 +1,32 @@
+CREATE TABLE Cliente_Petshop(
+  nome VARCHAR(200),
+  cpf VARCHAR(11),
+  email VARCHAR(100),
+  telefone VARCHAR(10)
+  
+  );
+  
+INSERT INTO Cliente_Petshop(nome, cpf, email, telefone) VALUES ('Felipe','45678945678','lipega25@gmail.com','1598745612');
+INSERT INTO Cliente_Petshop(nome, cpf, email, telefone) VALUES ('Maria','12345678901','maria@gmail.com','987654321');
+INSERT INTO Cliente_Petshop(nome, cpf, email, telefone) VALUES ('João','98765432109','joao@hotmail.com','654321987');
+INSERT INTO Cliente_Petshop(nome, cpf, email, telefone) VALUES ('Ana','87654321012','ana@yahoo.com','741258963');
+INSERT INTO Cliente_Petshop(nome, cpf, email, telefone) VALUES ('Carlos','65432109876','carlos@outlook.com','369852147');
+
+SELECT nome,cpf,email,telefone  FROM Cliente_Petshop;
+
+
+CREATE TABLE Pet_Petshop(
+  nome VARCHAR(200),
+  especie VARCHAR(11),
+  datanascimento DATE
+  
+  );
+  
+INSERT INTO Pet_Petshop(nome, especie, datanascimento) VALUES ('Garfield','Gatto','2018-05-08');
+INSERT INTO Pet_Petshop(nome, especie, datanascimento) VALUES ('Rex','Cachorro','2019-10-15');
+INSERT INTO Pet_Petshop(nome, especie, datanascimento) VALUES ('Whiskers','Gato','2020-03-25');
+INSERT INTO Pet_Petshop(nome, especie, datanascimento) VALUES ('Buddy','Cachorro','2017-07-12');
+INSERT INTO Pet_Petshop(nome, especie, datanascimento) VALUES ('Nibbles','Coelho','2021-01-02');
+
+SELECT nome, especie, datanascimento FROM Pet_Petshop;
+

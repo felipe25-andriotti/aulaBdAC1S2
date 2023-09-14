@@ -1,0 +1,33 @@
+CREATE TABLE Autor(
+  nome VARCHAR(200),
+  nacionalidade VARCHAR(20),
+  email VARCHAR(20),
+  datanascimento DATE
+  
+  );
+  
+INSERT INTO Autor(nome, nacionalidade, email, datanascimento) VALUES ('Maria Silva', 'Genovia', 'mariasilva@gmail.com', '1980-07-18');
+INSERT INTO Autor(nome, nacionalidade, email, datanascimento) VALUES ('Raul Gonzalez', 'Elbonia', 'raulgonzalez@yahoo.com', '1992-04-26');
+INSERT INTO Autor(nome, nacionalidade, email, datanascimento) VALUES ('Sofia Chan', 'Wakanda', 'sofiac@gmail.com', '1985-12-03');
+INSERT INTO Autor(nome, nacionalidade, email, datanascimento) VALUES ('Maxim Ivanov', 'Laputa', 'maximi@hotmail.com', '1972-09-14');
+INSERT INTO Autor(nome, nacionalidade, email, datanascimento) VALUES ('Linda Johnson', 'Nárnia', 'lindaj@outlook.com', '1998-02-09');
+
+SELECT nome, nacionalidade, email, datanascimento FROM Autor;
+
+
+CREATE TABLE Livro(
+  titulo VARCHAR(100),
+  qtdePaginas int(4),
+  acabamento VARCHAR(100),
+  editora VARCHAR(100)
+  
+  
+  );
+  
+INSERT INTO Livro(titulo, qtdePaginas, acabamento, editora) VALUES ('O Mistério da Ilha Perdida', 320, 'Capa dura', 'Editora Enigma');
+INSERT INTO Livro(titulo, qtdePaginas, acabamento, editora) VALUES ('A Cidade Secreta', 420, 'Brochura', 'Editora Mistério');
+INSERT INTO Livro(titulo, qtdePaginas, acabamento, editora) VALUES ('Aventuras no Espaço', 240, 'Capa dura', 'Editora Galáxia');
+INSERT INTO Livro(titulo, qtdePaginas, acabamento, editora) VALUES ('O Segredo do Templo', 380, 'Brochura', 'Editora Relíquia');
+INSERT INTO Livro(titulo, qtdePaginas, acabamento, editora) VALUES ('Viagem ao Passado', 290, 'Capa dura', 'Editora Viajante');
+
+SELECT titulo, qtdePaginas, acabamento, editora FROM Livro;
