@@ -8,7 +8,7 @@
 Script SQL:
 [SQL PetShop](SLIDE%2010/SQL%20Petshop%20-%20Aula%202023-08-21.txt)
 
-2. Em uma produtora de games, há desenvolvedores, que possuem um nome, CPF, data de nascimento.
+2. Em uma produtora de games, há desenvolvedores, que possuem um nome, CPF, data de nascimento. Cada projeto tem um nome, data de lançamento, gênero e faixa etária. Segundo o gerente de projetos, “cada desenvolvedor deve estar envolvido em um projeto
 
 ![Produtora Games MER](SLIDE%2010/Desenvolvedor%20-%20Aula%202023-08-21.png)
 
