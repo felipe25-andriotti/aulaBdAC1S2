@@ -28,3 +28,11 @@ Script SQL:
 
 Script SQL:
 [SQL Locadora](SLIDE%2019/SQL%20Montadora%20-%20Aula%202023-08-21.txt)
+
+5. Um supermercado cadastra seus produtos. Um produto é identificado por seu nome, preço, quantidade em estoque, nome da marca, SAC da marca, nacionalidade da marca.
+
+![Supermercado MER](SLIDE%2019/Marca%20-%20Aula%202023-08-21.png)
+
+Script SQL:
+[SQL Supermercado](SLIDE19/SQLMarca-Aula2023-08-21.txt)
+
