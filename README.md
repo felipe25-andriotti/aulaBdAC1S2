@@ -34,7 +34,7 @@ Script SQL:
 ![Supermercado MER](SLIDE%2019/Marca%20-%20Aula%202023-08-21.png)
 
 Script SQL:
-[SQL Supermercado](SLIDE%2019/SQLMarca%20-%20Aula%202023-08-21.txt)
+[SQL Supermercado](SLIDE%2019/SQL%20Marca%20-%20Aula%202023-08-21.txt)
 
 6. Uma videoteca precisa cadastrar o título, duração, idioma original e preço de cada filme. É necessário cadastrar também o elenco de cada filme onde se registra o nome, data de nascimento, nacionalidade de cada ator/atriz. Opcionalmente, inclua o cadastro de diretores com atributos que julgar necessários.
 
